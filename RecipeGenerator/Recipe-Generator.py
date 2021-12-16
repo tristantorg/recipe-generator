@@ -1,8 +1,3 @@
-"""
----------DELETE----------------https://eightportions.com/datasets/Recipes/#fnref:1-----------DELETE--------------
-
-Final Project Tristan Torgersen
-"""
 
 import json, re, os
 ingr1 = input("Type an ingredient that you have and press 'Enter':") # ask the user for ingredients as input and save them to a value
