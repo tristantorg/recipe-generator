@@ -3,7 +3,7 @@ import json, re, os
 ingr1 = input("Type an ingredient that you have and press 'Enter':") # ask the user for ingredients as input and save them to a value
 ingr2 = input("Type another ingredient that you have and press 'Enter':")
 ingr3 = input("Type another ingredient that you have and press 'Enter':")
-directory = __file__[:18]
+directory = __file__[:-19]
 os.chdir(directory+'recipes_raw copy')
 filenames = [f for f in os.listdir() if re.search(r"\.json", f, flags=re.IGNORECASE)]
 for filename in filenames: #for loop between the 3 .json recipe data files
